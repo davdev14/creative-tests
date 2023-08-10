@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
 body {
   margin: 0;
   background-color: #303030;
@@ -5,6 +7,8 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  font-family: 'Lobster Two', sans-serif;
+  font-size: 2rem;
 }
 .container {
   background-color: white;
@@ -22,10 +26,10 @@ body {
 .text1 {
   padding: 16px 0 16px 0;
   position: absolute;
-  top: 30%;
+  top: 20%;
   width: max-content;
   left: 0;
-  animation: moveToLeft 10s linear infinite forwards;
+  animation: moveToLeft 12s linear infinite forwards;
 }
 .text1:hover {
   cursor: pointer;
@@ -35,9 +39,9 @@ body {
   padding: 16px 0 16px 0;
   position: absolute;
   width: max-content;
-  bottom: 30%;
+  bottom: 20%;
   right: 0;
-  animation: moveToRight 10s linear infinite forwards;
+  animation: moveToRight 12s linear infinite forwards;
 }
 .text2:hover {
   cursor: pointer;
