@@ -1,0 +1,24 @@
+body {
+  margin: 0px;
+  background-color: #303030;
+}
+#cursor{
+  position: fixed;
+  top: -8px;
+  left: -16px;
+  z-index: 9999;
+  pointer-events: none;
+  transform: scale(1);
+}
+#cursor-dot {
+  position: absolute;
+  top: -100%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: white;
+  pointer-events: auto;
+  transition: transform 0.1s linear;
+}
